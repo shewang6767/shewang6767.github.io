@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>数据中表的关系</title>
+      <link href="/2024/03/14/shu-ju-zhong-biao-de-guan-xi/"/>
+      <url>/2024/03/14/shu-ju-zhong-biao-de-guan-xi/</url>
+      
+        <content type="html"><![CDATA[<h3 id="表与表之间的关系"><a href="#表与表之间的关系" class="headerlink" title="表与表之间的关系"></a>表与表之间的关系</h3><h4 id="1，一对一关系"><a href="#1，一对一关系" class="headerlink" title="1，一对一关系"></a>1，一对一关系</h4><p>比如有A、B两张表，A表中的每一条数据，在B表中有一条唯一的数据与之对应。</p><p><strong>用户表user：</strong></p><table><thead><tr><th>user_id（用户编号）</th><th>账号username</th><th>密码password</th></tr></thead><tbody><tr><td>001</td><td>admin</td><td>admin888</td></tr><tr><td>002</td><td>itheima</td><td>123456</td></tr></tbody></table>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2024/03/08/hello-world/"/>
       <url>/2024/03/08/hello-world/</url>
