@@ -723,6 +723,33 @@ React优势（流行）相对于传统基于DOM开发的优势：组件化的开
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: null,
+        id: '2024-03-15T16-25-23',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
 
     
 
@@ -747,7 +774,7 @@ React优势（流行）相对于传统基于DOM开发的优势：组件化的开
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/03/15/dva/">
+                <a href="/2024/03/15/chu-shi-umi/">
                     <div class="card-image">
                         
                         
@@ -777,8 +804,8 @@ React优势（流行）相对于传统基于DOM开发的优势：组件化的开
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/umi-dva/">
-                        <span class="chip bg-color">umi-dva</span>
+                    <a href="/tags/umi/">
+                        <span class="chip bg-color">umi</span>
                     </a>
                     
                 </div>
@@ -792,13 +819,13 @@ React优势（流行）相对于传统基于DOM开发的优势：组件化的开
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/03/15/chu-shi-umi/">
+                <a href="/2024/03/14/shu-ju-zhong-biao-de-guan-xi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="初学react">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="数据中表的关系">
                         
-                        <span class="card-title">初学react</span>
+                        <span class="card-title">数据中表的关系</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -809,7 +836,7 @@ React优势（流行）相对于传统基于DOM开发的优势：组件化的开
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-14
                             </span>
                         <span class="publish-author">
                             
@@ -822,8 +849,8 @@ React优势（流行）相对于传统基于DOM开发的优势：组件化的开
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/umi/">
-                        <span class="chip bg-color">umi</span>
+                    <a href="/tags/sql/">
+                        <span class="chip bg-color">sql</span>
                     </a>
                     
                 </div>
